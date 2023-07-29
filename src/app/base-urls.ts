@@ -1,6 +1,6 @@
 export class BaseUrls {
 
-  public static readonly BASE_HREF: string = "http://https://github.com/Simplilearn-Edu/estore-admin-dashboard.git:8080";
+  public static readonly BASE_HREF: string = "http://https://ec2-16-171-54-189.eu-north-1.compute.amazonaws.com:8080";
 
   public static readonly ADMIN_GROUPURL: string = "adminauth";
   public static readonly USER_GROUPURL: string = "users";
