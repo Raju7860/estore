@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('Source'){
       steps{
-         git branch:'main',url:'https://github.com/Raju7860/estore-Admin.git'
+         git branch:'main',url:'https://github.com/Raju7860/estore_Admin_Dashboard.git'
       } 
     }
 
@@ -15,13 +15,13 @@ pipeline{
     
       stage('Test'){
       steps{
-        bat "npm run test "
+        bat "npm run ng test "
     }
       } 
     
      stage('Build'){
       steps{
-        bat "npm run build"
+        bat "npm run ng build"
     }
       } 
     
